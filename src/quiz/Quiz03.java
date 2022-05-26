@@ -9,7 +9,7 @@ public class Quiz03 {
 		    String str = new String("tESt sTring     change     first");
 			String changeStr = new String();
 			int i=0;
-
+			System.out.println("변경 전 : " + str);
 			str = str.toLowerCase(); //문장내의 알파뱃 소문자로 변환
 			if(str.charAt(0) >='a' && str.charAt(0) <='z') {
 				changeStr+=(char)(str.charAt(i)-32);
@@ -29,8 +29,7 @@ public class Quiz03 {
 					changeStr+=(char)(str.charAt(i)-32);
 				i++;
 			}
-			System.out.println(str);
-			System.out.println(changeStr);
+			System.out.println("변경 후 : " + changeStr);
 			System.out.println("종료");
 		}
 }

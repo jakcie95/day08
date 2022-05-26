@@ -14,6 +14,7 @@ public class Ex01 {
 		System.out.println(str.toUpperCase());
 		*/
 		//abcdefg 0번쨰부터 입력된 숫자에 있는 값을 가져옴
+		//charAt(x) : x번째에 입력된 값을 가져옴
 		System.out.println(str.charAt(0)); //a
 		System.out.println(str.charAt(0) == 'a'); //true
 		System.out.println(str.charAt(1) == 'a'); //false
