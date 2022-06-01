@@ -8,17 +8,17 @@ public class Ex01 {
 		String str = new String("abcdefg");
 		//String str = "abcdefg";
 		/*
-		System.out.println("¹®ÀÚ¿­ ÀÔ·Â");
+		System.out.println("ë¬¸ìžì—´ ìž…ë ¥");
 		str = sc.next();
 		System.out.println(str);
 		System.out.println(str.toUpperCase());
 		*/
-		//abcdefg 0¹ø¤ŠºÎÅÍ ÀÔ·ÂµÈ ¼ýÀÚ¿¡ ÀÖ´Â °ªÀ» °¡Á®¿È
-		//charAt(x) : x¹øÂ°¿¡ ÀÔ·ÂµÈ °ªÀ» °¡Á®¿È
+		//abcdefg 0ë²ˆì¨°ë¶€í„° ìž…ë ¥ëœ ìˆ«ìžì— ìžˆëŠ” ê°’ì„ ê°€ì ¸ì˜´
+		//charAt(x) : xë²ˆì§¸ì— ìž…ë ¥ëœ ê°’ì„ ê°€ì ¸ì˜´
 		System.out.println(str.charAt(0)); //a
 		System.out.println(str.charAt(0) == 'a'); //true
 		System.out.println(str.charAt(1) == 'a'); //false
-		System.out.println(str.charAt(0)-32); //65 ¾Æ½ºÅ°ÄÚµå ÂüÁ¶
+		System.out.println(str.charAt(0)-32); //65 ì•„ìŠ¤í‚¤ì½”ë“œ ì°¸ì¡°
 		System.out.println((char)(str.charAt(0)-32)); //A
 		
 		str+= " "; //abcdefg  + z
@@ -29,23 +29,24 @@ public class Ex01 {
 		String re = str.trim();
 		System.out.println(re);
 		
-		//trim : // ¾ÕµÚÀÇ °ø¹éÀ» ¾ø¾ÖÁÜ
-		String name="È«±æµ¿	";
+		//trim : // ì•žë’¤ì˜ ê³µë°±ì„ ì—†ì• ì¤Œ
+		String name="í™ê¸¸ë™	";
 		System.out.println("name :" +name);
-		if(name.trim().equals("È«±æµ¿")){
-			System.out.println("°°´Ù");
+		if(name.trim().equals("í™ê¸¸ë™")){
+			System.out.println("ê°™ë‹¤");
 		}else {
-			System.out.println("´Ù¸£´Ù");
+			System.out.println("ë‹¤ë¥´ë‹¤");
 		}
-		//split : ¹®ÀÚ¿­ ºÐÇÒ °ø¹é /," ",","µîµî ÀÌ¿ë
+		//split : ë¬¸ìžì—´ ë¶„í•  ê³µë°± /," ",","ë“±ë“± ì´ìš©
 		String addr;
-		addr = "047869/ ¼­¿ï½Ã Á¾·Î±¸ Á¾·Î 3°¡ /3Ãþ";
+		addr = "047869/ ì„œìš¸ì‹œ ì¢…ë¡œêµ¬ ì¢…ë¡œ 3ê°€ /3ì¸µ";
 		String[] ad = addr.split("/");
 		System.out.println(ad[0]); //047869
-		System.out.println(ad[1]); //¼­¿ï½Ã
-		//replace : Æ¯Á¤¹®ÀÚ¸¦ ¹Ù²ãÁÖ´Â ±â´É
+		System.out.println(ad[1]); //ì„œìš¸ì‹œ
+		//replace : íŠ¹ì •ë¬¸ìžë¥¼ ë°”ê¿”ì£¼ëŠ” ê¸°ëŠ¥
 		String replace = addr.replace("/", ","); //  / -> ,
 		System.out.println(replace);
+		sc.close();
 		
 }
 }

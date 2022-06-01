@@ -3,8 +3,8 @@ package quiz;
 public class Quiz02 {
 
 	public static void main(String[] args) {
-		// it is a fun java programming ¹®ÀÚ¿­¿¡¼­
-		// 'a'ÀÇ °³¼ö¿Í 'g'ÀÇ °³¼ö¿Í ÃÑ °³¼ö¸¦ Ãâ·ÂÇÏ½Ã¿À.
+		// it is a fun java programming ë¬¸ìì—´ì—ì„œ
+		// 'a'ì˜ ê°œìˆ˜ì™€ 'g'ì˜ ê°œìˆ˜ì™€ ì´ ê°œìˆ˜ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤.
 			String str = new String("It is a fun java programming");
 			int i=0;
 			int cnt_a=0,cnt_g=0,cnt=0;
@@ -15,8 +15,8 @@ public class Quiz02 {
 					cnt_g++;
 				i++;
 			}
-			System.out.println("ÃÑ °³¼ö : "+str.length());
-			System.out.println("a °³¼ö : "+cnt_a);
-			System.out.println("g °³¼ö : "+cnt_g);
+			System.out.println("ì´ ê°œìˆ˜ : "+str.length());
+			System.out.println("a ê°œìˆ˜ : "+cnt_a);
+			System.out.println("g ê°œìˆ˜ : "+cnt_g);
 		}
 }

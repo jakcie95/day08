@@ -5,12 +5,12 @@ public class Quiz03 {
 	public static void main(String[] args) {
 		// String str = new String("tESt sTring	    change     first");
 		// String changeStr = new String();
-		// ÇöÀçÀÇ °ø¹éÀº ¸î °³°¡ ÀÖ´ÂÁö ¾Ë ¼ö ¾ø´Â »óÈ²¿¡¼­ Ã¹¹øÂ° ¾ËÆÄºª¸¸ ´ë¹®ÀÚ·Î º¯°æ ÇÏ½Ã¿À
+		// í˜„ìž¬ì˜ ê³µë°±ì€ ëª‡ ê°œê°€ ìžˆëŠ”ì§€ ì•Œ ìˆ˜ ì—†ëŠ” ìƒí™©ì—ì„œ ì²«ë²ˆì§¸ ì•ŒíŒŒë²³ë§Œ ëŒ€ë¬¸ìžë¡œ ë³€ê²½ í•˜ì‹œì˜¤
 		    String str = new String("tESt sTring     change     first");
 			String changeStr = new String();
 			int i=0;
-			System.out.println("º¯°æ Àü : " + str);
-			str = str.toLowerCase(); //¹®Àå³»ÀÇ ¾ËÆÄ¹î ¼Ò¹®ÀÚ·Î º¯È¯
+			System.out.println("ë³€ê²½ ì „ : " + str);
+			str = str.toLowerCase(); //ë¬¸ìž¥ë‚´ì˜ ì•ŒíŒŒë±ƒ ì†Œë¬¸ìžë¡œ ë³€í™˜
 			if(str.charAt(0) >='a' && str.charAt(0) <='z') {
 				changeStr+=(char)(str.charAt(i)-32);
 				i++;
@@ -29,7 +29,7 @@ public class Quiz03 {
 					changeStr+=(char)(str.charAt(i)-32);
 				i++;
 			}
-			System.out.println("º¯°æ ÈÄ : " + changeStr);
-			System.out.println("Á¾·á");
+			System.out.println("ë³€ê²½ í›„ : " + changeStr);
+			System.out.println("ì¢…ë£Œ");
 		}
 }

@@ -6,7 +6,7 @@ public class Quiz01 {
 
 	public static void main(String[] args) {
 		//"Have a nice day Have a nice day Have a nice day"
-		//¹®ÀÚ¿­¿¡¼­ aÀÇ À§Ä¡¸¦ ÀúÀåÇÏ¿© Ãâ·ÂÇÏ½Ã¿À
+		//ë¬¸ìì—´ì—ì„œ aì˜ ìœ„ì¹˜ë¥¼ ì €ì¥í•˜ì—¬ ì¶œë ¥í•˜ì‹œì˜¤
 			String str = new String("Have a nice day Have a nice day Have a nice day");
 			int i=0;
 			ArrayList arr = new ArrayList();
